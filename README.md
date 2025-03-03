@@ -1,5 +1,4 @@
 # ManagingRealEstate
-# ManagingRealEstate
 
 ![Real Estate Management](https://tse4.mm.bing.net/th?id=OIP.5VvG29FDkUU3E8TaJqDVFwHaGr&pid=Api)
 
@@ -11,6 +10,7 @@
 - [Architecture Patterns](#architecture-patterns)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Docker Image](#docker-image)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -123,6 +123,22 @@ Containerizes the application using Docker, ensuring consistent environments acr
 
    Open a web browser and navigate to `http://localhost:8080` to access the application.
 
+## Docker Image 📦
+
+If you prefer to pull the pre-built Docker image from Docker Hub, use the following command:
+
+```bash
+ docker pull outlookebrahem/managingrealestateapi:latest
+```
+
+Run the image:
+
+```bash
+ docker run -d -p 8080:80 outlookebrahem/managingrealestateapi:latest
+```
+
+Now, the application will be accessible at `http://localhost:8080`.
+
 ## Usage 🏡
 
 Once the application is running, you can interact with the real estate management system through the exposed APIs. Detailed API documentation is available via Swagger at `http://localhost:8080/swagger`.
@@ -148,9 +164,3 @@ For any inquiries, reach out to **Ebrahem Mohamed** at [GitHub](https://github.c
 ---
 
 *Note: The images used above are for illustrative purposes and should be replaced with actual images relevant to the project.*
-
-This project is licensed under the MIT License.
-
-Contact
-For any inquiries, reach out to Ebrahem Mohamed at GitHub.
-
